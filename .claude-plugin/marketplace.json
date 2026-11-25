@@ -1,0 +1,12 @@
+{
+  "name": "prompt-efficiently",
+  "description": "Prompt Efficiently plugins for Claude Code",
+  "owner": { "name": "Prompt Efficiently" },
+  "plugins": [
+    {
+      "name": "prompt-efficiently",
+      "source": "./",
+      "description": "Rough input-token estimates and a conservative prompt-tightening suggestion, only when you ask. Free Prompt Efficiently account required."
+    }
+  ]
+}

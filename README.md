@@ -19,12 +19,12 @@ The helper reads only stdin, never your workspace. Pipe a prompt from your own t
 ## Claude Code plugin
 Start a session with `claude --plugin-dir /absolute/path/to/this-folder`. The skill is `pe`; explicitly ask PE to check supplied prompt text. Configure the helper Python environment with its absolute path in your own session. Do not put credentials in project settings. This does not silently intercept Claude requests.
 
-## Limits and release gate
+## Limits
 Rough word-based input tokens only, no output/context/tool cost or subscription-credit estimate.
 
 
 
-## Local catalog install
-After downloading and unzipping, run `claude plugin marketplace add /absolute/path/to/this-folder`, then `claude plugin install prompt-efficiently@prompt-efficiently`. The catalog is bundled locally and no online directory approval is required. An online hosted catalog needs a reachable artifact source, not this relative local path.
+## Install from GitHub
+Run `claude plugin marketplace add promptefficiently/pe-claude-code`, then `claude plugin install prompt-efficiently@prompt-efficiently`. To install from an unzipped copy instead, use `claude plugin marketplace add /absolute/path/to/this-folder`. No online directory approval is needed.
 
 Licence: MIT (see LICENSE). Sign-in, rewrites and billing run on Prompt Efficiently servers and are not part of this repository. Not affiliated with the AI products it supports.

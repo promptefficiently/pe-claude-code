@@ -1,0 +1,9 @@
+{
+  "name": "prompt-efficiently",
+  "version": "0.2.0",
+  "description": "Rough input-token estimates and a conservative prompt-tightening suggestion, only when you ask. Sign-in to a free Prompt Efficiently account required.",
+  "homepage": "https://promptefficiently.com",
+  "repository": "https://github.com/promptefficiently/pe-claude-code",
+  "license": "MIT",
+  "author": { "name": "Prompt Efficiently" }
+}
